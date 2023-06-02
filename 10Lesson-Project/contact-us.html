@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name='author' content='Barry Salmon'>
+  <meta name='description' content="This is the contact us page of The Little Taco Shop">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> The Little Taco Shop Contact Us</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <H1>Contact Us</H1>
+
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="index.html#about">About <abbr title="The Little Taco Shop" >LTS</abbr></a></li>
+    <li><a href="index.html#menu">Our Menu</a></li>
+    <li><a href="store-hours.html">Store Hours</a></li>
+  </ul>
+
+  <figure>
+    <img src="img/tacos_close_up_400x260.png" alt="Close up picture of Tacos" title="Little Taco Shop Tacos" height="260" width="400">
+    <figcaption>Little Taco Shop Tacos</figcaption>
+  </figure>
+  
+  <h2 >Our Contact Form</h2>
+  <form action="https://httpbin.org/get" method="get">
+    <fieldset>
+      <Legend>Send Us A Message</Legend>
+    <p>
+      <label for="name">Name: </label>
+      <input type="text" name = 'name' id="name" placeholder="Your name" required autofocus>
+    </p>
+ 
+    <p>
+      <label for="message">Email:</label>
+      <input type="text" name = 'email' id="email" placeholder="Your email" required>
+    </p>
+    <p>
+      <label for="message">Your Message: </label>
+      <br>
+      <textarea name = 'message' id="message" cols='30' rows='10' placeholder="Type your message here..." required></textarea>    
+    </p>    
+  </fieldset>
+  <button type="submit">Send</button>
+  <button type="reset">Reset</button>
+  </form>
+  <h2>Our Location</h2>
+
+  <address>
+    555 Taco Temptation Lane, Suite T <br>
+    Kansas City, MO 55555-5555
+  </address>
+
+  <p><a><em>Phone: </em> <a href="tel:555-555-5555">555 -555-5555</a></p>
+
+
+<p><a href="#">Back to Top</a></p>
+<br>
+<p>Copyright &copy; The Little Taco Shop</p>
+  
+  
+</body>
+</html>
